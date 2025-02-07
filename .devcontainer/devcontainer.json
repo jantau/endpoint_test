@@ -1,0 +1,10 @@
+{
+    "name": "R Development Environment",
+    "image": "rocker/r-ver:4.1.2",
+    "extensions": [
+      "reditorsupport.r",
+      "ikuyadeu.r"
+    ],
+    "postCreateCommand": "R -e 'install.packages(c(\"languageserver\", \"httpgd\"))'"
+  }
+  
